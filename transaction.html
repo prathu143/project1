@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Details</title>
+    <link rel="stylesheet" href="pro1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Girls Shopping Paradise</h1>
+        </div>
+    </header>
+
+    <!-- Transaction Form -->
+    <section id="transaction">
+        <div class="container">
+            <h2>Enter Your Transaction Details</h2>
+            <form action="#" method="POST">
+                <label for="product">Product Selected:</label>
+                <input type="text" id="product" name="product" value="Pink Georgette Dress" readonly><br><br>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="credit_card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select><br><br>
+
+                <label for="cardNumber">Card Number (if Credit Card):</label>
+                <input type="text" id="cardNumber" name="cardNumber" required><br><br>
+
+                <button type="submit">Submit Payment</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Girls Shopping Paradise. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
